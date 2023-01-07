@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+/* ------------------------- log-in sign-up section ------------------------ */
+
+.main-conatiner {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+}
+
+/* log-in section */
+.text-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0vw 0vw 12vw 2vw;
+}
+
+.text {
+    font-size: 2.4vw;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    padding: 0vw 5vw 0vw 3vw;
+}
+
+.login-form {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 1vw;
+    padding: 1vw 2vw;
+    color: aliceblue;
+    font-family: system-ui;
+    margin: 5vw;
+}
+
+img {
+    cursor: pointer;
+}
+
+input {
+    padding: 1.3vw;
+    width: 32vw;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    border-radius: 0.5vw;
+    border: 1px solid #e7dfdf;
+    margin: 1vw 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn {
+    background: #1877f2;
+    width: 35vw;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 21px;
+    font-family: system-ui;
+    cursor: pointer;
+}
+
+.login-form a {
+    border-bottom: 1px solid #dadde1;
+    padding: 0vh 9vw 3vh 9vw;
+    margin-bottom: 1vw;
+}
+
+.login-form a:visited {
+    color: #1877f2;
+}
+
+/* log-in section */
+
+
+
+/* sign-up section */
+.sign-form {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 1vw;
+    color: aliceblue;
+    font-family: system-ui;
+}
+
+.heading-signup {
+    color: black;
+}
+
+.quick-easy {
+    color: #606770;
+}
+
+#close-signup {
+    font-weight: 600;
+    position: absolute;
+    top: 10vh;
+    font-size: 2.2vw;
+    left: 65vw;
+    color: #6b7172;
+    border: none;
+    padding: 0.5vw;
+    cursor: pointer;
+    background: none;
+}
+
+.info-para {
+    color: black;
+    width: 36vw;
+    font-weight: 600;
+    font-size: 1vw;
+}
+
+
+.sign-form p,
+h1 {
+    padding-left: 1vw;
+    margin: 1vh 1vw;
+}
+
+.sign-form input {
+    margin: 2vh 1vw;
+}
+
+.btn-sign {
+    background-color: #42b72a;
+    width: 20vw;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: system-ui;
+    cursor: pointer;
+}
+
+
+/* sign-up section */
+
+/* ------------------------- log-in sign-up section ------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------- friends-screen section ------------------------ */
+/* ----------header--------- */
+.main-box {
+    background-color: #c9cdd3;
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    background: #1877f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ----------- nav-left ----------*/
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left li .logo {
+    /* filter: drop-shadow(2px 4px 6px black); */
+    margin: 0 2vw;
+    width: 150px;
+    background: aliceblue;
+    border-radius: 2vw;
+}
+
+.nav-left li img {
+    width: 2.5vw;
+}
+
+.nav-left li {
+    margin: 0 1vw;
+}
+
+
+/* ----------- nav-right -----------*/
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.search-box {
+    margin-right: 1vw;
+}
+
+.search {
+    padding-left: 45px;
+    width: 30vw;
+    border-radius: 2vw;
+}
+
+.search-logo {
+    position: relative;
+    top: 9px;
+    left: 35px;
+}
+
+.profile-pic {
+    width: 5vw;
+    border-radius: 3vw;
+    margin-right: 1vw;
+}
+
+/* ----------header--------- */
+
+
+
+
+
+/* ----------main--------- */
+
+.main {
+    background-color: #c9cdd3;
+    display: flex;
+    justify-content: space-evenly;
+    color: #414653;
+}
+
+/* ----------- box1 ---------- */
+.box1 {
+    padding: 0vh 2vw 5vh 4vw;
+    font-size: 1.3vw;
+}
+
+.top-shortcuts {
+    border-bottom: 1px solid #848080;
+    padding: 0px 5vw 0 0vw;
+}
+
+.top-shortcuts a:visited {
+    color: #1877f2;
+}
+
+.bottom-shortcuts li p {
+    font-weight: 600;
+    color: #686e72;
+}
+
+.bottom-shortcuts li img {
+    width: 3vw;
+    border-radius: 0.5vw;
+}
+
+.box1 img {
+    width: 2vw;
+    margin-right: 1vw;
+}
+
+.box1 li {
+    margin: 3vh 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+/* ----------- box1 ---------- */
+
+/* ----------- box2 ---------- */
+.box2 {
+    padding: 2vh 2vw 5vh 2vw;
+}
+
+.box2 img {
+    width: 5vw;
+    border-radius: 3vw;
+}
+
+.profile-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: aliceblue;
+    border-radius: 0.5vw;
+    padding: 0vw 2vw 2vw 1vw;
+}
+
+.profile-box input {
+    border: none;
+    background: none;
+    margin-left: 2vw;
+    border-bottom: 1px solid gray;
+}
+
+.profile-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: aliceblue;
+    border-radius: 1vw;
+    padding: 0vw 1vw 2vw 1vw;
+}
+
+.shortcuts img {
+    width: 2.5vw;
+    margin: 0 1vw;
+}
+
+.shortcuts,
+.shortcuts li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vw;
+}
+
+/* ----------- box2 ---------- */
+
+/* ----------- box3 ---------- */
+.box3 {
+    padding: 2vh 2vw 5vh 2vw;
+}
+
+.friend-section {
+    background: aliceblue;
+    border-radius: 0.5vw;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.logout {
+    border: none;
+    background: black;
+    color: aliceblue;
+    border-radius: 1vw;
+    padding: 1vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin-bottom: 2vh;
+}
+
+.advertise {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    color: #686e72;
+}
+
+.advertise img {
+    width: 20vw;
+    margin-top: 2vh;
+}
+
+.friends {
+    border-bottom: 2px solid #b2aaaa;
+    padding: 1vw 5vw 1vw 0vw;
+}
+
+.friends p {
+    font-size: 1.8vw;
+    font-weight: 600;
+}
+
+/* ----------- box3 ---------- */
+
+/* ----------main--------- */
+
+/* ------------------------- friends-screen section ------------------------ */

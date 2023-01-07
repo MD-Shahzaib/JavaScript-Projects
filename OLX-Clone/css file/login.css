@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+/* ------------------ log-in sign-up section ------------------- */
+
+.main-conatiner {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+}
+
+/* log-in section */
+
+.login-form {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 1vw;
+    padding: 1vw 2vw;
+    color: aliceblue;
+    font-family: system-ui;
+    margin: 5vw;
+}
+
+img {
+    cursor: pointer;
+}
+
+input {
+    padding: 1.3vw;
+    width: 32vw;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    border-radius: 0.5vw;
+    border: 1px solid #e7dfdf;
+    margin: 1vw 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn {
+    background: #1877f2;
+    width: 35vw;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 21px;
+    font-family: system-ui;
+    cursor: pointer;
+}
+
+.login-form a {
+    border-bottom: 1px solid #dadde1;
+    padding: 0vh 9vw 3vh 9vw;
+    margin-bottom: 1vw;
+}
+
+.login-form a:visited {
+    color: #1877f2;
+}
+
+/* log-in section */
+
+/* sign-up section */
+.sign-form {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 1vw;
+    color: aliceblue;
+    font-family: system-ui;
+}
+
+.heading-signup {
+    color: black;
+}
+
+.quick-easy {
+    color: #606770;
+}
+
+#close-signup {
+    font-weight: 600;
+    position: absolute;
+    top: 10vh;
+    font-size: 2.2vw;
+    left: 65vw;
+    color: #6b7172;
+    border: none;
+    padding: 0.5vw;
+    cursor: pointer;
+    background: none;
+}
+
+.info-para {
+    color: black;
+    width: 36vw;
+    font-weight: 600;
+    font-size: 1vw;
+}
+
+.sign-form p,
+h1 {
+    padding-left: 1vw;
+    margin: 1vh 1vw;
+}
+
+.sign-form input {
+    margin: 2vh 1vw;
+}
+
+.btn-sign {
+    background-color: #42b72a;
+    width: 20vw;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: system-ui;
+    cursor: pointer;
+}
+
+/* sign-up section */
+
+/* ----------------------- log-in sign-up section -------------------- */

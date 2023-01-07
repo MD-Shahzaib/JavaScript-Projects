@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX - post-ad-page</title>
+    <link rel="stylesheet" href="css file/ad post.css">
+</head>
+
+<body>
+
+    <!-- ad post form -->
+    <div class="container">
+        <div class="head">
+            <img src="images/back img.png" onclick="back()" class="img1" alt="logo">
+            <a href="index.html"><img src="images/logo1.png" class="img2" alt="logo"></a>
+        </div>
+        <div class="post-ad-sec">
+            <div class="sub-heading">
+                <h2>POST YOUR AD</h2>
+            </div>
+            <div class="post-form">
+                <div class="sub-heading">
+                    <h3>INCLUDE SOME DETAILS</h3>
+                </div>
+                <div class="title">
+                    <span class="info-top">Ad title :</span>
+                    <input class="input-size" type="text" id="title">
+                    <span class="info-bottom">Mention the key features of your item (e.g. brand, model, age,
+                        type)</span>
+                </div>
+                <div class="price">
+                    <span class="info-top">Price :</span>
+                    <input class="input-size" type="text" value="Rs : " id="price">
+                </div>
+                <div class="description">
+                    <span class="info-top">Description :</span>
+                    <textarea class="tarea" id="description" cols="95" rows="8"></textarea>
+                    <span class="info-bottom">Include condition, features and reason for selling</span>
+                </div>
+                <div class="file">
+                    <label for="avatar" class="info-top">Choose a profile picture:</label>
+                    <input type="file" class="file-sel" id="file" name="avatar" accept="image/png, image/jpeg">
+                </div>
+                <div class="post-container">
+                    <button onclick="post()" class="post-Btn">POST NOW</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ad post form -->
+
+    <script type="module" src="js file/ad post.js"></script>
+    <script type="module" src="js file/firebase/config.js"></script>
+</body>
+
+</html>

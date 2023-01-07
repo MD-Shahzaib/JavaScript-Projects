@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2>Welcome To Calculate Me.</h2>
+    <div class="container">
+
+        <div class="display">
+            <input disabled type="text" id="Input">
+        </div>
+
+        <div class="buttons">
+            <div class="row">
+                <button onclick="getValue(event)">sin</button>
+                <button onclick="getValue(event)">cos</button>
+                <button onclick="getValue(event)">tan</button>
+                <button onclick="C()">C</button>
+            </div>
+            <div class="row">
+                <button onclick="getValue(event)">7</button>
+                <button onclick="getValue(event)">8</button>
+                <button onclick="getValue(event)">9</button>
+                <button onclick="getValue(event)">-</button>
+            </div>
+            <div class="row">
+                <button onclick="getValue(event)">4</button>
+                <button onclick="getValue(event)">5</button>
+                <button onclick="getValue(event)">6</button>
+                <button onclick="getValue(event)">+</button>
+            </div>
+            <div class="row">
+                <button onclick="getValue(event)">1</button>
+                <button onclick="getValue(event)">2</button>
+                <button onclick="getValue(event)">3</button>
+                <button onclick="getValue(event)">*</button>
+            </div>
+            <div class="row">
+                <button onclick="getValue(event)">0</button>
+                <button onclick="getValue(event)">.</button>
+                <button onclick="getValue(event)">/</button>
+                <button onclick="sum()"> = </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script src="app.js"></script> -->
+    <script src="app2.js"></script>
+</body>
+
+</html>

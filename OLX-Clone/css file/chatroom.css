@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: system-ui;
+}
+
+.chat-container {
+    background-color: rgb(175, 181, 187);
+}
+
+.nav {
+    background-color: rgb(39 52 64);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw;
+    position: sticky;
+    top: 0;
+}
+
+.foot {
+    background-color: rgb(39 52 64);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+    position: sticky;
+    bottom: 0;
+    width: 100vw;
+}
+
+.msg-box {
+    background-color: black;
+    color: aliceblue;
+    height: 100vh;
+    padding: 1vw;
+}
+
+.send-icon {
+    width: 6vw;
+    border-radius: 3vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-feild {
+    padding: 1vw;
+    background: black;
+    color: aliceblue;
+    width: 70vw;
+    border: none;
+    font-size: 2vw;
+    outline-style: none;
+    font-weight: 500;
+    border-radius: 0.8vw;
+    cursor: pointer;
+    margin-right: 1vw;
+}
+
+.chat-heading {
+    border-radius: 3vw;
+    font-size: 3vw;
+    font-weight: 400;
+    border: 0.2vw solid aliceblue;
+    padding: 0.5vw 1vw;
+    cursor: pointer;
+}
+
+.chat-heading:hover {
+    background: aliceblue;
+    color: black;
+    border: 0.2vw solid rgb(0, 0, 0);
+}
+
+.back-btn {
+    padding: 1vw;
+    font-size: 1.5vw;
+    font-weight: 800;
+    background: none;
+    color: aliceblue;
+    border: 0.2vw solid aliceblue;
+    border-radius: 2vw;
+    cursor: pointer;
+}
+
+.back-btn:hover {
+    background: aliceblue;
+    color: black;
+    border: 0.2vw solid rgb(0, 0, 0);
+}
+
+
+.message-orange {
+    background-color: #056c56;
+    color: aliceblue;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 1vw;
+    width: 50vw;
+    margin: 1vw;
+    float: right;
+}
+
+.message-white {
+    background-color: rgb(44 44 50);
+    color: rgb(255, 255, 255);
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 1vw;
+    width: 50vw;
+    float: left;
+    margin: 1vw;
+}

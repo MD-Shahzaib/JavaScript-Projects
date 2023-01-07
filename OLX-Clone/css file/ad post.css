@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.head {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1vh 2vw;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.sub-heading {
+    margin: 1vw 0;
+}
+
+.sub-heading h2 {
+    padding: 0 27.5vw;
+}
+
+.img1 {
+    width: 3vw;
+    filter: invert(120%);
+    padding: 0.5vw;
+    background-color: white;
+    border-radius: 3vw;
+    cursor: pointer;
+}
+
+.img2 {
+    width: 7vw;
+    margin-left: 2vw;
+    border-radius: 3vw;
+    cursor: pointer;
+}
+
+.post-ad-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1vh 2vw 10vh 2vw;
+}
+
+.post-form {
+    border: 1px solid #d5d5d5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2vw;
+    border-radius: 2vw;
+}
+
+.post-form div {
+    margin: 1vw 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.input-size {
+    width: 70vw;
+    padding: 1vh 1vw;
+    border-radius: 0.5vw;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+.tarea {
+    font-size: 2vw;
+    padding: 2vh 1.2vw;
+    border-radius: 0.5vw;
+    width: 70vw;
+    cursor: pointer;
+}
+
+.info-top {
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: #404143;
+    text-transform: uppercase;
+}
+
+.info-bottom {
+    font-size: 1.2vw;
+    font-weight: 400;
+    color: #66686d;
+    text-transform: capitalize;
+}
+
+.file-sel {
+    background: #0e535c;
+    padding: 1vw;
+    border: 1px solid #242322;
+    color: aliceblue;
+    border-radius: 0.5vw;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+.post-Btn {
+    border: none;
+    padding: 1vw 20vw;
+    cursor: pointer;
+    margin: 0 auto;
+    border-radius: 0.5vw;
+    background: #0e535c;
+    color: aliceblue;
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+.post-Btn:hover {
+    background: #24adbe;
+    color: rgb(23, 26, 29);
+}

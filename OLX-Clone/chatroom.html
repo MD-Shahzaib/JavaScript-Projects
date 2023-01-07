@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX - CHAT-ROOM</title>
+    <link rel="stylesheet" href="css file/chatroom.css">
+</head>
+
+<body>
+
+    <!-------------------- chat-box section ---------------->
+    <div class="chat-container">
+
+        <div class="nav">
+            <span class="chat-heading">CHATROOM</span>
+            <button class="back-btn" onclick="history.back()">BACK</button>
+        </div>
+
+        <div class="main">
+            <div id="msg-box" class="msg-box"></div>
+        </div>
+
+        <div class="foot">
+            <input id="input" class="input-feild" type="text" placeholder="Type a message">
+            <img onclick="sendMsg()" src="images/sendicon.png" class="send-icon" id="send-Btn" alt="send-icon">
+        </div>
+
+    </div>
+    <!-------------------- chat-box section ---------------->
+
+    <script type="module" src="js file/chatroom.js"></script>
+    <script type="module" src="js file/firebase/config.js"></script>
+
+</body>
+
+</html>

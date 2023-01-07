@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX – log in or sign up</title>
+    <link rel="stylesheet" href="css file/login.css">
+</head>
+
+<body>
+    <!---------------- sign up section -------------------->
+    <div id="sign-up-form" class="main-conatiner">
+        <div class="sign-form">
+            <div class="heading-signup">
+                <h1>Sign Up</h1>
+                <p class="quick-easy">It's quick and easy.</p>
+                <button onclick="closeSignUp()" id="close-signup">X</button>
+                <hr>
+            </div>
+
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="text" id="address" placeholder="Address" required>
+            <input type="text" id="gender" placeholder="Gender" required>
+            <input type="email" id="email" placeholder="Email address or phone number" required>
+            <input type="password" id="password" placeholder="Password" required>
+
+            <p class="info-para">People who use our service may have
+                uploaded your contact information to Facebook. Learn
+                more.</p>
+            <p class="info-para">By clicking Sign Up, you agree to
+                our Terms, Privacy Policy and Cookies Policy.
+                You may receive SMS notifications from us and can opt out at any time.</p>
+            <input onclick="signIn()" type="button" value="SIGN UP" class="btn-sign" style="margin-left: 9vw;">
+        </div>
+    </div>
+    <!---------------- sign up section -------------------->
+
+
+    <!---------------- log in section -------------------->
+    <div id="log-in-form" class="main-conatiner">
+        <div class="login-form">
+            <input type="email" id="l-email" placeholder="Email address or phone number">
+            <input type="password" id="l-password" placeholder="Password">
+            <input onclick="logIn()" type="button" value="Log in" class="btn">
+            <a href="#">Forgotten password?</a>
+            <input onclick="openSignUp()" type="button" value="Create New Account" class="btn-sign">
+        </div>
+    </div>
+    <!---------------- log in section -------------------->
+
+
+    <script type="module" src="js file/login.js"></script>
+    <script type="module" src="js file/firebase/config.js"></script>
+
+</body>
+
+</html>

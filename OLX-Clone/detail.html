@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX - detail-page</title>
+    <link rel="stylesheet" href="css file/index.css">
+    <link rel="stylesheet" href="css file/detail.css">
+</head>
+
+<body>
+
+    <!-- header start -->
+    <div class="navbar">
+        <div class="top-sec">
+            <div class="top-sec-box1">
+                <a href="index.html"><img src="images/logo1.png" alt="logo"></a>
+            </div>
+            <div class="top-sec-box2">
+                <img src="images/car.png" alt="">
+                <span>MOTORS</span>
+            </div>
+            <div class="top-sec-box3">
+                <img src="images/building.png" alt="">
+                <span>PROPERTY</span>
+            </div>
+        </div>
+        <div class="bottom-sec">
+            <div class="bottom-sec-box1">
+                <a href="index.html"><img src="images/logo2.png" alt="logo"></a>
+            </div>
+            <div class="bottom-sec-box2">
+                <img src="images/google-web-search.png" class="search-icon" alt="">
+                <input type="search" value="Pakistan" class="search-location"
+                    placeholder="Search city, area or locality">
+            </div>
+            <div class="bottom-sec-box3">
+                <img src="images/google-web-search.png" class="search-icon2" alt="">
+                <input type="search" class="search-item" placeholder="Find Cars, Mobile Phones and more">
+            </div>
+            <div class="bottom-sec-box4">
+                <img src="images/chat.svg" alt="chat" class="box4-imgcn">
+                <img src="images/iconNotifications.svg" alt="chat" class="box4-imgcn">
+                <abbr title="My Ads" onclick="myAds()" class="my-ad-box">
+                    <img src="images/iconProfilePicture.png" alt="chat" class="box4-img">
+                    <img src="images/iconArrowDown.svg" alt="chat" class="arrow-img">
+                </abbr>
+            </div>
+            <div onclick="createAdd()" class="bottom-sec-box5">
+                <img src="images/Sell.svg" alt="chat">
+                <span>SELL</span>
+            </div>
+        </div>
+    </div>
+    <!-- header end -->
+
+    <!-- main start -->
+    <div class="main-body">
+
+        <div class="all-catogries">
+            <div class="select-catogries">
+                <label for="cars">ALL CATEGORIES</label>
+                <select id="cars" class="sel" name="cars">
+                    <option value=""></option>
+                    <option value="Mobile Phones">Mobile Phones</option>
+                    <option value="Cars">Cars</option>
+                    <option value="Motorcycles">Motorcycles</option>
+                    <option value="Houses">Houses</option>
+                    <option value="TV - Video - Audio">TV - Video - Audio</option>
+                    <option value="Tablets">Tablets</option>
+                    <option value="Land & Plots">Land & Plots</option>
+                </select>
+            </div>
+            <li>Mobile Phones</li>
+            <li>Cars</li>
+            <li>Motorcycles</li>
+            <li>Houses</li>
+            <li>TV - Video - Audio</li>
+            <li>Tablets</li>
+            <li>Land & Plots</li>
+        </div>
+
+        <div class="slider-image">
+            <img src="images/slider img.jpg" alt="">
+        </div>
+
+        <!-------------------- ads section ------------------>
+        <div class="ads-sec">
+            <span class="ads-sec-heading">Ads Detail</span>
+            <hr>
+            <!-------------------- detail section ------------------>
+            <div id="ads-detail" class="detail-box"></div>
+            <!-------------------- detail section ------------------>
+        </div>
+        <!-------------------- ads section ------------------>
+
+        <div class="slider-image2">
+            <img src="images/slider img2.jpg" style="width: 42.5vw;" alt="">
+            <div class="appstore">
+                <span class="appstore-info">GET YOUR APP TODAY</span>
+                <div class="app-img">
+                    <img src="images/footer img1.svg" alt="">
+                    <img src="images/footer img2.svg" alt="">
+                    <img src="images/footer img3.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- main end -->
+
+    <!-- footer start -->
+    <div class="footer">
+        <div class="top-foot">
+            <div class="box1 boxes">
+                <div class="box-heading">POPULAR CATEGORIES</div>
+                <li>Cars</li>
+                <li>Flats for rent</li>
+                <li>Mobile Phones</li>
+                <li>Jobs</li>
+            </div>
+            <div class="box2 boxes">
+                <div class="box-heading">TRENDING SEARCHES</div>
+                <li> Bikes</li>
+                <li> Watches</li>
+                <li> Books</li>
+                <li> Dogs</li>
+            </div>
+            <div class="box3 boxes">
+                <div class="box-heading">ABOUT US</div>
+                <li> About EMPG</li>
+                <li> OLX Blog</li>
+                <li> Contact Us</li>
+                <li> OLX for Businesses</li>
+            </div>
+            <div class="box4 boxes">
+                <div class="box-heading">OLX</div>
+                <li> Help</li>
+                <li> Sitemap</li>
+                <li> Terms of use</li>
+                <li> Privacy Policy</li>
+            </div>
+            <div class="box5">
+                <div class="box-heading">FOLLOW US</div>
+                <div class="socail-link">
+                    <img src="images/fb icon.svg" alt="">
+                    <img src="images/twt icon.svg" alt="">
+                    <img src="images/ytb icon.svg" alt="">
+                    <img src="images/insta icon.svg" alt="">
+                </div>
+                <div class="link-img">
+                    <img src="images/footer img1.svg" alt="">
+                    <img src="images/footer img2.svg" alt="">
+                    <img src="images/footer img3.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="below-foot">
+            Free Classifieds in Pakistan . © 2006-2022 OLX
+        </div>
+    </div>
+    <!-- footer end -->
+
+    <script type="module" src="js file/detail.js"></script>
+    <!-- <script type="module" src="js file/index.js"></script> -->
+    <script type="module" src="js file/firebase/config.js"></script>
+</body>
+
+</html>
