@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: rgb(102 125 145);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.row {
+    width: 10vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.7vw;
+}
+
+.box {
+    background: #87a3c7;
+    width: 10vw;
+    height: 18vh;
+    margin: 0.5vw;
+    font-size: 8vw;
+    text-align: center;
+    border: 0.3vw solid #07435a;
+    cursor: pointer;
+    border-radius: 1.2vw;
+}
