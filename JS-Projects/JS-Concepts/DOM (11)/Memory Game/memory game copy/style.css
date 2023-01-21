@@ -1,0 +1,75 @@
+    @import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Finger+Paint&display=swap');
+
+    body {
+        font-family: 'jokerman', cursive;
+        background-color: skyblue;
+    }
+
+    h1 {
+        color: white;
+    }
+
+    #gameboard {
+        margin: 5vh auto;
+        height: 60vh;
+        width: 60vw;
+    }
+
+    .gametile {
+        height: 15vh;
+        width: 15vw;
+        line-height: 15vh;
+        background-color: #44445a;
+        color: white;
+        text-align: center;
+        font-size: 0em;
+        border: 2px solid #55555a
+    }
+
+    #timer div,
+    #score div,
+    #clicks div {
+        margin: 10px auto 25px auto;
+        height: 80px;
+        line-height: 80px;
+        text-align: center;
+        border: 3px solid #555;
+        background-color: #f5f5f5;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 2em;
+        text-transform: capitalize;
+    }
+
+    .label {
+        margin-top: 20px;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+    }
+
+    .btn {
+        text-align: center;
+        width: 100%;
+        padding: 2%;
+        margin-bottom: 10%;
+        font-weight: 600;
+        font-size: 2.5em;
+    }
+
+    .displayTile {
+        font-size: 3em;
+    }
+
+    .hideTile {
+        font-size: 0em;
+        background-color: #44445a;
+    }
+
+    .correctAnswer {
+        background-color: green;
+    }
+
+    .falseAnswer {
+        background-color: red;
+    }

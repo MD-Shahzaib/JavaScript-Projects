@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+        
+    <title>Memory Minder</title>
+</head>
+
+<body>
+
+    <div class="text-center text-uppercase mt-5">
+        <h1>Memory Game</h1>
+        <p><strong>Test your Memory:</strong>Match the pairs as quickly as possible, in as few moves as possible</p>
+    </div>
+
+    <div id="gameboard" class="container">
+
+        <div class="row">
+            <div class="col-3 gametile" id="tile1"></div>
+            <div class="col-3 gametile" id="tile2"></div>
+            <div class="col-3 gametile" id="tile3"></div>
+            <div class="col-3 gametile" id="tile4"></div>
+            <div class="col-3 gametile" id="tile5"></div>
+            <div class="col-3 gametile" id="tile6"></div>
+            <div class="col-3 gametile" id="tile7"></div>
+            <div class="col-3 gametile" id="tile8"></div>
+            <div class="col-3 gametile" id="tile9"></div>
+            <div class="col-3 gametile" id="tile10"></div>
+            <div class="col-3 gametile" id="tile11"></div>
+            <div class="col-3 gametile" id="tile12"></div>
+        </div>
+        <div class="row">
+            <div class="col-4 label">
+                <h3>Timer</h3>
+            </div>
+            <div class="col-4 label">
+                <h3>Moves</h3>
+            </div>
+            <div class="col-4 label">
+                <h3>Score</h3>
+            </div>
+            <div class="col-4" id="timer">
+                <div></div>
+            </div>
+            <div class="col-4" id="clicks">
+                <div></div>
+            </div>
+            <div class="col-4" id="score">
+                <div></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 mt-4">
+                <button id="startGame" class="btn btn-success">Start Game</button>
+            </div>
+            <div class="col-6 mt-4">
+                <button id="endGame" class="btn btn-danger"> End Game </button>
+            </div>
+            <div class="col-2 mx-auto">
+                <button id="reset" class="btn btn-warning"><a style="text-decoration: none;"
+                        href="index.html">Reset</a></button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
